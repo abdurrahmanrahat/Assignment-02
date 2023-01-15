@@ -394,6 +394,7 @@ footer p {
     /*---- Our Features section ----*/
     .our-feature{
         flex-direction: column;
+        margin: 0px;
     }
     .our-feature-image{
         grid-template-columns: 1fr;
@@ -443,8 +444,9 @@ footer p {
     }
 
     .sub-info{
-        width: 100%;
+        width: 280px;
         padding: 0px;
+        margin: 0px;
     }
 
     /*---- Some facts section ----*/
