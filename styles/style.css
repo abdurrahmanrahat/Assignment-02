@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFF4E7;
+}
+
+.container-btn {
+    width: 150px;
+    height: 54px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+/* ----------------------
+    Start header section 
+    ----------------------*/
+
+header .logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 120px;
+}
+
+header .logo-nav h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #131313;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+
+}
+
+header nav ul li {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* ----------------------
+    Start brand new container section 
+    ----------------------*/
+
+.container {
+    margin: 20px 120px;
+}
+
+.container-info {
+    padding: 0px 180px 60px 180px;
+}
+
+.container-info h1 {
+    font-size: 54px;
+    font-weight: 700;
+    color: #131313;
+    text-align: center;
+    padding: 0 140px;
+}
+
+.container-info p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+}
+
+/* .container-info .container-btn {
+    width: 150px;
+    height: 54px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+} */
+
+.container-info .btn-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-image img {
+    width: 100%;
+}
+
+/* ----------------------
+    Start Our Features section 
+    ----------------------*/
+
+.our-feature {
+    display: flex;
+    margin: 100px 120px;
+}
+
+.our-feature-image {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.our-feature-image img {
+    width: 100%;
+}
+
+.our-feature-info {
+    width: 50%;
+    align-self: center;
+    padding-left: 60px;
+}
+
+.our-feature-info h2 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.our-feature-info h2 .feature-info-span-one {
+    font-weight: 700;
+    color: #131313;
+}
+
+.our-feature-info h2 .feature-info-span-two {
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.our-feature-info p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* ----------------------
+    Start Features love&enjoy section  
+    ----------------------*/
+
+.fea-love-enjoy-section {
+    display: flex;
+    margin: 120px 120px 0 120px;
+}
+
+.fea-love-enjoy-section .love-enjoy-info {
+    /* width: 45%; */
+    padding-right: 90px;
+}
+
+.fea-love-enjoy-section .love-enjoy-info h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.fea-love-enjoy-section .love-enjoy-info p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.fea-love-enjoy-section .love-enjoy-sub-info .sub-info {
+    padding: 2px 30px 0 30px;
+}
+
+.love-enjoy-sub-info .sub-info h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.love-enjoy-sub-info .sub-info p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+
+
+.fea-love-enjoy-section .love-enjoy-image img {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.fea-love-enjoy-section .love-enjoy-image button {
+    width: 320px;
+    height: 180px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #fff;
+    border: none;
+    line-height: 40px;
+    position: relative;
+    top: -100px;
+    left: -80px;
+}
+
+.fea-love-enjoy-section .love-enjoy-image button .love-enjoy-btn-deep {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* ----------------------
+    Start Some facts section 
+    ----------------------*/
+.some-facts {
+    margin: 60px 120px 0px 120px;
+}
+
+.some-facts h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.some-facts .fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-right: 570px;
+}
+
+.some-facts .some-fact-counter {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+
+}
+
+.some-facts .some-fact-counter .counter {
+    width: 240px;
+    height: 240px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+.counter::before{
+    content: "";
+    width: 0px;
+    height: 100%;
+    background-color: #FF900E;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.7s all;
+}
+
+.counter:hover::before{
+    width: 100%;
+}
+
+
+.some-facts .some-fact-counter .counter img {
+    margin-top: 40px;
+    width: 45px;
+    height: 45px;
+}
+
+.some-facts .some-fact-counter .counter span {
+    font-weight: 600;
+    font-size: 40px;
+    color: #424242;
+    display: block;
+}
+
+.some-facts .some-fact-counter .counter p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* ----------------------
+    Start own-design section 
+    ----------------------*/
+
+.own-design {
+    display: flex;
+    margin: 100px 120px 0px 120px;
+}
+
+.own-design .own-design-image img {
+    width: 100%;
+}
+
+.own-design .own-design-info{
+    align-self: center;
+}
+
+.own-design .own-design-info h3 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #131313;
+}
+
+.own-design .own-design-info p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: -30px;
+}
+
+
+/* ----------------------
+    Start sponsors section 
+    ----------------------*/
+
+.sponsor-section {
+    margin: 0px 120px 80px 120px;
+    text-align: center;
+}
+
+.sponsor-section h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sponsor-section p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 0px 290px;
+}
+
+.sponsor-section .sponsor-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.sponsor-section .sponsor-list img:nth-of-type(n) {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+/* ----------------------
+    Start footer section 
+    ----------------------*/
+
+footer {
+    background-color: #FFF4E7;
+    margin: 0px 120px;
+    padding: 5px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+}
+
+/* ----------------------
+    Start mobil responsive 
+    ----------------------*/
+
+@media screen and (max-width: 688px) {
+    /*---- header section ----*/
+    header .logo-nav{
+        flex-direction: column;
+        margin: 0px;
+    }
+    header .logo-nav h2 {
+        font-size: 28px;
+    }
+    header nav ul{
+        flex-direction: column;
+    }
+
+    /*---- brand new container section ----*/
+    .container{
+        width: 100%;
+        margin: 0px;
+    }
+    .container-info{
+        padding: 0px;
+    }
+    .container-info h1 {
+        font-size: 24px;
+        padding: 0px;
+    }
+    .container-image img {
+        width: 200;
+        margin-top: 20px;
+    }
+
+    /*---- Our Features section ----*/
+    .our-feature{
+        flex-direction: column;
+    }
+    .our-feature-image{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .our-feature-info{
+        padding: 0px;
+        width: 100%;
+    }
+    .our-feature-info h2{
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    /*---- Features love&enjoy section ----*/
+
+    .fea-love-enjoy-section{
+        flex-direction: column;
+        margin: 0px;
+        width: 100%;
+    }
+    .love-enjoy-info{
+        padding: 0px;
+        /* width: 100%; */
+    }
+    .fea-love-enjoy-section .love-enjoy-info{
+        width: 100%;
+    }
+    .fea-love-enjoy-section .love-enjoy-info h2{
+        font-size: 20px;
+    }
+    .fea-love-enjoy-section .love-enjoy-image{
+        width: 100px;
+        margin: 0px;
+    }
+
+    .fea-love-enjoy-section .love-enjoy-image button {
+        width: 140px;
+        height: 80px;
+        font-size: 20px; 
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .love-enjoy-sub-info{
+        width: 100%;
+    }
+
+    .sub-info{
+        width: 100%;
+        padding: 0px;
+    }
+
+    /*---- Some facts section ----*/
+    .some-facts{
+        margin: 0px;
+    }
+    .some-facts h2 {
+        font-size: 28px;
+    }
+    .some-facts .fact-description {
+        font-size: 16px;
+        color: #727272;
+        margin: 0px;
+    }
+    .some-facts .some-fact-counter{
+        flex-direction: column;
+    }
+    /*---- Own design section ----*/
+    .own-design{
+        flex-direction: column;
+        margin: 0px;
+        width: 100%;
+    }
+    .own-design .own-design-image img{
+        width: 100%;
+    }
+    .own-design .own-design-info h3 {
+        font-size: 28px;
+    }
+
+    /*---- sponsors section ----*/
+    .sponsor-section{
+        margin: 0px;
+        width: 100%;
+    }
+    .sponsor-section h2 {
+        font-size: 28px;
+    }
+    
+    .sponsor-section p {
+        font-size: 16px;
+        padding: 0px;
+    }
+    .sponsor-section .sponsor-list{
+        flex-direction: column;
+        
+    }
+    .sponsor-section .sponsor-list img{
+        width: 100%;
+    }
+    footer{
+        margin: 0px;
+    }
+}
+
+
+
+.hide{
+    display: none;
+}
